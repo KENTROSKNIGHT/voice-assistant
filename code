@@ -28,7 +28,7 @@ elif samay>=12 and samay<16:
 else:
      speak ("Good evening")
     
-speak("Ayush sir , I am jarvis , how can I help you ")
+speak("Arvind sir , I am jarvis , how can I help you ")
 
 #speak ("Mai zira hu , mai aapkii kaisee madad kar sakati hoon")
 
@@ -77,14 +77,7 @@ while True:
   print(results)
   speak (results)
 
- if 'shivam' in query:
-        query = 'saurabh mishra and shivam sourav'
-        speak('searching about %s' %query) 
-        results = 'are two friends of ayush gupta'
-        print('%s %s' %(query ,results ))
-        speak('%s %s' %(query,results) )
-
- elif 'open youtube' in query:
+ if 'open youtube' in query:
     webbrowser.open("youtube.com")
  elif 'open google' in query:
     webbrowser.open("google.com")
@@ -132,7 +125,5 @@ while True:
  elif 'date' in query:
     strDate = datetime.datetime.now().date()
     speak(f"Sir ,today's date is {strDate}")
- elif 'abhinay' in query:
-    speak("Saumya ka pati")
   
    
